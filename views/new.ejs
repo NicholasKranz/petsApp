@@ -1,0 +1,37 @@
+<%- include("partials/header") %>
+
+<div class="container">
+	
+	<h2 class="headerAdd">
+		Add a new pet!	
+	</h2>
+	
+	<p id="ownerAspet">
+		This is where you, the owner, create a social media profile from your pets perspective. You are your pet! Once a profile is set up, your pet can then share their thoughts with the world. Welcome to Facebook, for pets!  
+	</p>
+		
+		<div class="formContainer">		
+				<form action="/myPets" method=POST>	
+
+						<div class="form-group">
+							<input type="text" class="form-control" name="pet[name]" placeholder="name">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" name="pet[image]" placeholder="image">
+						</div>
+						<div class="form-group">
+							<input type="number" class="form-control" name="pet[age]" placeholder="age(human years)">
+						</div>
+						<div id="txtAreah" class="form-group">
+							<label>Tell us about yourself, pet:</label>
+							<textarea id="formUncontrol" class="form-control" name="pet[bio]"></textarea>
+						</div>
+						<div class="form-group">
+							<input id="formBtn" class="btn btn-primary formBtn" type="submit">
+						</div>
+
+				</form>
+		</div>
+</div>
+
+<%- include("partials/footer") %>

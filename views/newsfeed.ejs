@@ -1,0 +1,47 @@
+<%- include("partials/header") %>
+
+	<div class="container">
+		
+		<h1> postage </h1>
+		
+			<% post.forEach(function(post){ %>
+				<div id="centeringPostbox">
+					<div id="postBox" class="thumbnail">
+						<img id="postProfimage"src="https://www.torontohumanesociety.com/public/images/adopt_a_pet/small_pet_adoptions.jpg">
+							<p>
+								<%= post.text %>
+							</p>
+
+					</div>
+				</div>
+			<%	}) %>
+		
+		
+		
+		
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer") %>

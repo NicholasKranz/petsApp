@@ -1,0 +1,39 @@
+<%- include("partials/header") %>
+
+	<div class="container">
+	
+		<div class="formContainer">
+			
+			<div>
+				
+				
+				<div id="imageHolder"class="thumbnail">
+					<img id="newPostimage" src="<%= pet.image %>">
+				</div>
+				
+				
+			</div>
+			
+			
+			
+			<form class="newPostform" action="/newsfeed" method="POST">
+
+				<div class="form-group">
+					<div id="labelforPost">
+						<label>Hello <span><%= pet.name %></span>, what's on your mind?</label>
+					</div>
+					<textarea id="postHeight" class="form-control" name="post[text]"></textarea>
+				</div>
+				
+				<div id="postSubmission" class="form-group">
+					<a href=""><button class="btn btn-success" type="submit">Post</button></a>
+				</div>
+					
+			</form>
+			
+		</div>	
+				
+	</div>
+
+
+<%- include("partials/footer") %>

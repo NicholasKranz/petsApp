@@ -1,0 +1,217 @@
+
+#centerHeadr{
+	color:green;
+}
+
+
+.profileThumb {
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+#thumbNail {
+	border-radius: 40px;
+	margin-bottom: 25px;
+}
+
+#centerHeadr {
+	text-align: center;
+	border-bottom: 1px solid green;
+	padding-bottom: 20px;
+	
+}
+
+.ctrThumb {
+	max-width: 465;
+	margin: auto;
+}
+
+#age {
+	margin-top: 15px;
+	text-align: left;
+	font-size: 25px;
+	
+}
+
+.paddingThumb {
+	padding:20px;
+}
+
+#h2Header {
+	text-align: left;
+	margin-top: 10px;
+	width: 75%;
+	border-color: green;
+	
+}
+
+h2 {
+font-weight: bold;
+}
+
+.roundImg {
+  max-width: 420px;
+  border-radius: 30px;
+}
+
+
+#formUncontrol {
+	height: 150px;
+}
+
+.formContainer {
+	margin-top: 30px;
+	display: block;
+	text-align: center;
+}
+
+form {
+	
+    display: inline-block;
+    text-align: left;
+	width: 60%;
+	
+}
+
+.headerAdd {
+	text-align: center;
+}
+
+/**NAVBAR STYLES **/
+
+
+#newsFeed {
+	color: green;
+	border: 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#myPets {
+	color: green;
+	border: 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#loginOut {
+	color: green;
+	border: 0px;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: line-through;
+}
+
+#logOut {
+	color: green;
+	border: 0px;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: line-through;
+}
+
+#navigation {
+    border-bottom: 0px;
+}
+
+#navigation2 {
+	border-bottom: 0px;
+}
+
+#signUp {
+	color: green;
+	border: 0px;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: line-through;
+	
+}
+
+#home {
+	color: green;
+	border: 0px;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+
+/* END NAV */
+
+#formBtn {
+	color: white;
+	background-color: green;
+}
+
+#petBio {
+	max-width: 430px;
+}
+
+#addNewpet {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#aNpetButtoncolor {
+	color: white;
+}
+
+.newPostform {
+	margin-top: 30px;
+	display: inline-block;
+    text-align: left;
+	width: 60%;
+}
+
+#createPostbutton {
+	text-align: right;
+}
+
+#imageHolder {
+	max-width: 500px;
+	margin: auto;
+	background-color: #ccffcc;
+	
+}
+
+#newPostimage {
+	max-width: 90%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	border-radius: 30px;
+}
+
+#labelforPost {
+	font-size: 31px;
+}
+
+#postSubmission {
+	text-align: center;
+}
+
+#postHeight {
+	height: 150px;
+}
+
+#postBox {
+	margin: auto;
+	width: 70%;
+	display: inline-block;
+	text-align: left;
+	
+}
+
+#postProfimage {
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	max-height: 70px;
+	max-width: 70px;
+}
+
+#centeringPostbox {
+	text-align: center;
+}

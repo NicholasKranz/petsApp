@@ -1,0 +1,39 @@
+<%- include("partials/header") %>
+
+	<div class="container">
+		
+		<div class="page-header">
+  			<h1 id="centerHeadr">My Pets</h1>
+		</div>
+		
+		<div id="addNewpet">
+			<button type="button" class="btn btn-success"><a id="aNpetButtoncolor" href="/myPets/new">+ Add New</a></button>
+		</div>
+	
+			<div class="text-center profileThumb">
+
+					<% pets.forEach(function(pet){ %>
+						<div id="thumbNail" class="thumbnail ctrThumb">
+							<div class="paddingThumb">
+								<div id="h2Header" class="page-header blckbor">
+  									<h2><%= pet.name %></h2>
+								</div>
+							
+								<img class="img-fluid roundImg" alt="Responsive image" src="<%= pet.image %>">
+								<h4 id="age">
+
+									<%= pet.age %>
+								</h4>
+								<p id="petBio">
+									<%- pet.bio %>
+								</p>
+								<div id="createPostbutton">
+									<a href="/myPets/newPost/<%= pet._id %>"><button class="btn btn-success" type="submit"><i class="fas fa-edit"></i> Create Post</button></a>
+								</div>
+							</div>	
+						</div>
+					<% }) %>
+			</div>
+	</div>	
+
+<%- include("partials/footer") %>
